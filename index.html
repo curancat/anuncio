@@ -1,0 +1,246 @@
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluções Digitais Premium - Desenvolvimento Web</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #0f172a;
+            --accent-color: #38bdf8;
+            --bg-light: #f8fafc;
+            --text-main: #334155;
+            --white: #ffffff;
+            --success: #22c55e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #1e293b 100%);
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--primary-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .badge {
+            background: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        h1 { font-size: 2rem; margin-bottom: 10px; }
+        p.intro { font-size: 1.1rem; color: #94a3b8; }
+
+        .section-title {
+            margin: 40px 0 20px;
+            padding-left: 15px;
+            border-left: 5px solid var(--primary-color);
+            color: var(--secondary-color);
+        }
+
+        /* Project Cards */
+        .card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+            color: #475569;
+        }
+
+        .btn-demo {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+
+        .btn-demo:hover {
+            background: var(--primary-color);
+        }
+
+        /* Info Section */
+        .info-box {
+            background: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .quality-alert {
+            border: 2px dashed var(--primary-color);
+            padding: 20px;
+            border-radius: 8px;
+            background: #eff6ff;
+            margin-top: 30px;
+        }
+
+        /* Policy Section */
+        .policy {
+            background: #fff1f2;
+            border: 1px solid #fecdd3;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* Contact CTA */
+        .cta-footer {
+            background: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+
+        .whatsapp-btn {
+            background: var(--success);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            display: inline-block;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4);
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.6rem; }
+            .container { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <span class="badge">Oportunidade de Modernização</span>
+        <h1>Sistemas Customizados para seu Negócio</h1>
+        <p class="intro">Leve sua operação e o entretenimento dos seus clientes para o próximo nível digital.</p>
+    </div>
+</header>
+
+<div class="container">
+    
+    <div class="info-box">
+        <strong>Nota Importante:</strong> Eu atuo como <strong>intermediário</strong> ,tenho experiência autodidata há 5 anos, então os códigos abaixo podem ser um pouco antigos. Os projetos listados abaixo são <strong>demonstrações</strong>. Você pode utilizá-los para testar o nível de entrega e encomendar uma versão exclusiva para sua empresa.
+    </div>
+
+    <h2 class="section-title">🛠️ Sistemas de Gestão e Operação</h2>
+
+    <div class="card">
+        <h3>📦 Sistema de entregas(jacans)</h3>
+        <p>Um sistema focado em logística de pedidos alimentícios. Ideal para empresas que precisam organizar o fluxo de saída de mercadorias, e que não conseguem atender muitas pessoas de uma vez.</p>
+        <a href="https://curancat.github.io/Card/" class="btn-demo" target="_blank">Testar Demonstração</a>
+    </div>
+
+    <div class="card">
+        <h3>💰 Gestão de Caixa Avançada</h3>
+        <p>Software para controle para mercadorias. Permite o registro de entradas, saídas e fechamento de caixa, minimizando sobrecargas, estresse e garantindo que você opere com segurança.</p>
+        <a href="https://veecuran-cmyk.github.io/Caixa/" class="btn-demo" target="_blank">Testar Demonstração</a>
+    </div>
+
+    <div class="card">
+        <h3>📚 Sistema de Biblioteca/Acervo</h3>
+        <p>Demonstração de organização. Pode ser adaptado para catálogos de produtos, inventários de estoque de grande escala ou gerenciamento de informações de clientes com filtros inteligentes.</p>
+        <a href="https://veecuran-cmyk.github.io/Biblioteca/" class="btn-demo" target="_blank">Testar Demonstração</a>
+    </div>
+
+    <h2 class="section-title">🧠 Experiência e Chats Bots</h2>
+
+    <div class="card">
+        <h3>🤖 Pandora &amp; Cosmos</h3>
+        <p>Assistentes virtuais. Enquanto o Cosmos foca em auto assistência, terapia e entreterimento, a Pandora demonstra a capacidade de executar comandos mais profundos. Imagine ter um desses atendendo seus clientes no WhatsApp ou site 24h por dia, tirando dúvidas e anotando pedidos.</p>
+        <div style="display:flex; gap:10px; flex-wrap: wrap;">
+            <a href="https://curancat.github.io/cosmos/" class="btn-demo" target="_blank">Cosmos</a>
+            <a href="https://veecuran-cmyk.github.io/Pandora/" class="btn-demo" target="_blank">Pandora</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>💻 DEV (Simulador de Sistema)</h3>
+        <p>Um simulador completo de interface de PC dentro do navegador. Este projeto demonstra o mais alto nível de domínio de programação, mostrando que não há limites para a complexidade visual e funcional que podemos desenvolver para você.</p>
+        <a href="https://veecuran-cmyk.github.io/DEV/" class="btn-demo" target="_blank">Ver Poder Técnico</a>
+    </div>
+
+    <h2 class="section-title">🕹️ Engajamento e Lazer</h2>
+
+    <div class="card">
+        <h3>🎮 Jogos Customizados</h3>
+        <p>Ofereça entretenimento para seus clientes enquanto eles esperam! Desenvolvemos versões digitais de clássicos como <strong>Uno Online</strong> ou jogos originais desafiadores como o <strong>Nêutron</strong>.</p>
+        <div style="display:flex; gap:10px; flex-wrap: wrap;">
+            <a href="https://curancat.github.io/Uno/" class="btn-demo" target="_blank">Jogar Uno</a>
+            <a href="https://veecuran-cmyk.github.io/Neutron/" class="btn-demo" target="_blank">Jogar Nêutron</a>
+        </div>
+    </div>
+
+    <div class="quality-alert">
+        <h3>⭐ Qualidade Garantida</h3>
+        <p>Estes projetos não são apenas modelos prontos; são códigos escritos do zero com foco em performance e segurança. Ao contratar o serviço de desenvolvimento, você garante um produto exclusivo que se adapta à identidade visual da sua marca.</p>
+    </div>
+
+    <div class="policy">
+        <h3>🛡️ Sistema de Devolução e Garantia</h3>
+        <p>Trabalhamos com transparência total. O processo de desenvolvimento é dividido em etapas. Caso o projeto final não cumpra as funcionalidades técnicas prometidas no contrato inicial ou apresente falhas críticas não corrigidas, oferecemos um <strong>sistema de devolução parcial ou total</strong> do valor investido, garantindo que você só pague pelo que realmente funciona.</p>
+    </div>
+
+</div>
+
+<section class="cta-footer">
+    <div class="container">
+        <h2>Gostou de algum sistema ou precisa de algo novo?</h2>
+        <p>Clique no botão abaixo para falar comigo agora mesmo. Lembre-se: estas são demonstrações, o seu projeto será único!</p>
+        <a href="https://wa.me/5584999528925" class="whatsapp-btn">Falar com Intermediário (84) 99952-8925</a>
+        <p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.7;">Anúncio de serviço de desenvolvimento de software.</p>
+    </div>
+</section>
+
+</body>
+</html>
